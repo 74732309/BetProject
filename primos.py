@@ -1,13 +1,13 @@
-y = int(input("Digite um número: "))
+y = int(input("enter a number "))
 con = 0
 for p in range(1,y+1):
     if y % p == 0:
         con += 1
-print(f'O numero {y} foi divisivel {con}')  
+print(f'The number {y} was divisible {con}')  
 if con == 2:
-    print('Esse numero é primo')  
+    print('this number is prime')  
 else:
-    print("Esse numero nao é primo")    
+    print("this number is odd")    
 
 
 
