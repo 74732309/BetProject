@@ -1,16 +1,16 @@
 from random import sample
 import time 
 
-resp = str(input("BEM VINDO A LOTOFACIL, VOCE GOSTARIA DE JOGAR? "))
+resp = str(input("WELCOME TO LOTOFÁCIL, WOULD YOU LIKE TO PLAY? "))
 
 if resp == 'S' or 's' or 'Sim' or 'SIM':
-    print("Certo, aguarde alguns segundos, estamos gerando seus numeros...")
+    print("Okay, wait a few seconds, we are generating your numbers...")
     time.sleep(0.5)
     jogador = sample(range(0, 61), 5)
-    print("BOM JOGOS E QUE A SORTE SEMPRE ESTEJA AO SEU FAVOR!")
+    print("GOOD GAMES AND MAY LUCK ALWAYS BE IN YOUR FAVOR!")
     print(jogador, end=" ")
 else:
-    print("Okay, venha na proxima que voce jogar!")
+    print("Okay, come next time you play!")
 
-#tentar aprimorar com while
+
 
